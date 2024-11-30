@@ -47,6 +47,10 @@ let meals = [
     {
         name: 'Tacos',
         ingredients: '',
+    },
+    {
+        name: 'Chicken alfredo',
+        ingredients: '',
     }
 ];
 const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']; //Assign to HTML when index is written 
