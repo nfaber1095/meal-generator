@@ -51,7 +51,15 @@ table {
         font-size: 1.2rem;
         min-width: 100%;
         max-height: 80vh;
-        line-height: 2rem;
         overflow: scroll;
+    }
+    th {
+        line-height: 3rem;
+    }
+    th, td {
+        border-bottom: 2px solid black;
+    }
+    td {
+        padding-left: 20px;
     }
 }
