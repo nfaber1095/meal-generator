@@ -51,10 +51,13 @@ let meals = [
     {
         name: 'Chicken alfredo',
         ingredients: '',
-    }
-];
-const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']; //Assign to HTML when index is written 
-let typeOfSauce = ['Baked ziti with meatballs', 'Lasagna', 'Spaghetti with meatballs', 'Chicken parm'];
+    },
+    {
+        name: 'Calzones',
+        ingredients: '',
+    },
+]; 
+let typeOfSauce = ['Baked ziti with meatballs', 'Lasagna', 'Spaghetti with meatballs', 'Chicken parm', 'Ravioli'];
 let typeOfBreakfast = ['Quesadillas', 'Wraps'];
 let tempMeals = meals.slice();
 const button1 = document.getElementById('button1');
